@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sherif/git/R1100/pcb/R1100.sch)
-    (date "Sun 02 Apr 2017 10:06:09 PM PDT")
+    (date "Thu 06 Apr 2017 02:14:48 PM PDT")
     (tool "Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -109,8 +109,8 @@
         (pin (num 12) (name SDA) (type BiDi))
         (pin (num 13) (name RXD0) (type output))
         (pin (num 14) (name TXD0) (type input))
-        (pin (num 15) (name P0[26]) (type BiDi))
-        (pin (num 16) (name P0[25]) (type BiDi))
+        (pin (num 15) (name SWDCLK) (type BiDi))
+        (pin (num 16) (name SWDIO) (type BiDi))
         (pin (num 17) (name USB1-) (type power_in))
         (pin (num 18) (name USB1+) (type power_in)))))
   (libraries
@@ -121,10 +121,10 @@
       (node (ref J1) (pin 8)))
     (net (code 2) (name "Net-(J1-Pad7)")
       (node (ref J1) (pin 7)))
-    (net (code 3) (name /P0[25])
+    (net (code 3) (name /SWDIO)
       (node (ref J2) (pin 16))
       (node (ref J1) (pin 16)))
-    (net (code 4) (name /P0[26])
+    (net (code 4) (name /SWDCLK)
       (node (ref J2) (pin 15))
       (node (ref J1) (pin 15)))
     (net (code 5) (name /SYSTXD0-CHIPRX)

@@ -15,7 +15,6 @@ LIBS:res_smd_extra
 LIBS:RoboPlatform
 LIBS:systems
 LIBS:power
-LIBS:R1100-cache
 EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
@@ -131,7 +130,7 @@ SYSRXD0-CHIPTX
 Text Label 6150 5350 0    39   ~ 0
 SYSTXD0-CHIPRX
 Text Label 6150 5450 0    39   ~ 0
-P0[26]
+SWDCLK
 Text Label 6150 5550 0    39   ~ 0
-P0[25]
+SWDIO
 $EndSCHEMATC
