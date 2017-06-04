@@ -76,17 +76,11 @@ Wire Wire Line
 Wire Wire Line
 	5950 5550 6650 5550
 Wire Wire Line
-	7500 3350 7500 3250
-Wire Wire Line
-	7500 3250 6650 3250
+	6650 3250 8400 3250
 Wire Wire Line
 	6650 3250 6650 3950
 Wire Wire Line
 	6650 3950 5950 3950
-Wire Wire Line
-	7600 3350 7600 3150
-Wire Wire Line
-	7600 3150 6550 3150
 Wire Wire Line
 	6550 3150 6550 3850
 Wire Wire Line
@@ -133,4 +127,10 @@ Text Label 6150 5450 0    39   ~ 0
 SWDCLK
 Text Label 6150 5550 0    39   ~ 0
 SWDIO
+Wire Wire Line
+	8500 3350 8500 3150
+Wire Wire Line
+	8500 3150 6550 3150
+Wire Wire Line
+	8400 3250 8400 3350
 $EndSCHEMATC
